@@ -29,10 +29,14 @@
 ## 設計書
 ### 画面遷移図
 - https://app.diagrams.net/#G1cvQrHDgtUcVh57Vse8vwfkLVAWjC8P9V
+### ワイヤーフレーム
+- https://app.diagrams.net/#G1rQmUUe8FkmptS2tzMzlchfQgv7DbvlKg
 ### ER図
 - https://app.diagrams.net/#G1WGLHv2O77LvG1i5kx6YmZq2aH__27qX1
 ### テーブル定義書
 - https://docs.google.com/spreadsheets/d/1OAHrZrRZzOlboPeCSWIlj2g6Dh4ngN3GlJiKb1-2OLk/edit#gid=1373217982
+### アプリケーション詳細設計書
+- https://docs.google.com/spreadsheets/d/14PAleSX89XW9Kh57WHoXhFm_x92DY-Szd4jejOToIvA/edit#gid=0
 
 
 ## 開発環境
