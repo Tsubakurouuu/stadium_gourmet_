@@ -3,15 +3,16 @@ Rails.application.routes.draw do
   #管理者
   namespace :admin do
     root to: 'homes#top'
-    resources :stores, only: [:index, :show] do
-      resources :items, except: [:index]
-    end
-    resources :orders, only: [:index, :show, :update]
 
     devise_for :stores, skip:[:passwords], controllers: {
       registrations: "admin/registrations",
       sessions: 'admin/sessions'
     }
+
+    resources :stores, only: [:index, :show] do
+      resources :items, except: [:index]
+    end
+    resources :orders, only: [:index, :show, :update]
   end
 
   #顧客
