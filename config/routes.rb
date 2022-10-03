@@ -16,7 +16,7 @@ Rails.application.routes.draw do
 
   #顧客
   scope module: :public do
-    root to: '/homes#top'
+    root to: 'homes#top'
 
     resources :stores, only: [:index, :show] do
       resources :items, only: [:show]
